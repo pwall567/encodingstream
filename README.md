@@ -54,40 +54,40 @@ name was already taken in `npm`).
     <th>RegExp</th>
     <th>Examples</th>
   </tr>
-  <tr style="font-family:monospace">
-    <td>utf8</td>
-    <td>/^utf[\-_]?8$/i</td>
-    <td>utf8 UTF-8</td>
+  <tr>
+    <td style="font-family:monospace">utf8</td>
+    <td style="font-family:monospace">/^utf[\-_]?8$/i</td>
+    <td style="font-family:monospace">utf8 UTF-8</td>
   </tr>
-  <tr style="font-family:monospace">
-    <td>utf16be</td>
-    <td>/^utf[\-_]?16[\-_]?be$/i</td>
-    <td>utf16-be UTF-16BE</td>
+  <tr>
+    <td style="font-family:monospace">utf16be</td>
+    <td style="font-family:monospace">/^utf[\-_]?16[\-_]?be$/i</td>
+    <td style="font-family:monospace">utf16-be UTF-16BE</td>
   </tr>
-  <tr style="font-family:monospace">
-    <td>utf16le</td>
-    <td>/^utf[\-_]?16[\-_]?le$/i</td>
-    <td>utf16-le UTF-16LE</td>
+  <tr>
+    <td style="font-family:monospace">utf16le</td>
+    <td style="font-family:monospace">/^utf[\-_]?16[\-_]?le$/i</td>
+    <td style="font-family:monospace">utf16-le UTF-16LE</td>
   </tr>
-  <tr style="font-family:monospace">
-    <td>usascii</td>
-    <td>/^(us[\-_]?)?ascii$/i</td>
-    <td>us-ascii ASCII</td>
+  <tr>
+    <td style="font-family:monospace">usascii</td>
+    <td style="font-family:monospace">/^(us[\-_]?)?ascii$/i</td>
+    <td style="font-family:monospace">us-ascii ASCII</td>
   </tr>
-  <tr style="font-family:monospace">
-    <td>iso88591</td>
-    <td>/^iso[\-_]?8859[\-_]?1$/i</td>
-    <td>iso-8859-1 ISO8859-1</td>
+  <tr>
+    <td style="font-family:monospace">iso88591</td>
+    <td style="font-family:monospace">/^iso[\-_]?8859[\-_]?1$/i</td>
+    <td style="font-family:monospace">iso-8859-1 ISO8859-1</td>
   </tr>
-  <tr style="font-family:monospace">
-    <td>iso885915</td>
-    <td>/^iso[\-_]?8859[\-_]?15$/i</td>
-    <td>iso-8859-15 ISO8859-15</td>
+  <tr>
+    <td style="font-family:monospace">iso885915</td>
+    <td style="font-family:monospace">/^iso[\-_]?8859[\-_]?15$/i</td>
+    <td style="font-family:monospace">iso-8859-15 ISO8859-15</td>
   </tr>
-  <tr style="font-family:monospace">
-    <td>windows1252</td>
-    <td>/^(windows|cp)[\-_]?1252$/i</td>
-    <td>Windows-1252 cp1252</td>
+  <tr>
+    <td style="font-family:monospace">windows1252</td>
+    <td style="font-family:monospace">/^(windows|cp)[\-_]?1252$/i</td>
+    <td style="font-family:monospace">Windows-1252 cp1252</td>
   </tr>
 </table>
 
@@ -107,7 +107,7 @@ var enc3 = Encoding.getEncoding('cp1252');
 ```
 
 Having obtained an `Encoding`, you can then use it to encode a string to a `Buffer`, to decode a
-'Buffer` to a string, or to obtain an `EncodeStream` or a 'DecodeStream` to perform the encoding
+`Buffer` to a string, or to obtain an `EncodeStream` or a `DecodeStream` to perform the encoding
 or decoding asynchronously.
 
 In all cases, string data is assumed to be in UTF-16 encoding, that is, it consists of 16-bit
