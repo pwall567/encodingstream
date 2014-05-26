@@ -47,15 +47,48 @@ encoding and decoding in `node.js` systems.
 name was already taken in `npm`).
 `Encoding` objects currently exist for the following encodings:
 
-| Name          | RegExp                        | Examples                   |
-|---------------|-------------------------------|----------------------------|
-| `utf8`        | `/^utf[\-_]?8$/i`             | `utf8` `UTF-8`             |
-| `utf16be`     | `/^utf[\-_]?16[\-_]?be$/i`    | `utf16-be` `UTF-16BE`      |
-| `utf16le`     | `/^utf[\-_]?16[\-_]?le$/i`    | `utf16-le` `UTF-16LE`      |
-| `usascii`     | `/^(us[\-_]?)?ascii$/i`       | `us-ascii` `ASCII`         |
-| `iso88591`    | `/^iso[\-_]?8859[\-_]?1$/i`   | `iso-8859-1` `ISO8859-1`   |
-| `iso885915`   | `/^iso[\-_]?8859[\-_]?15$/i`  | `iso-8859-15` `ISO8859-15` |
-| `windows1252` | `/^(windows|cp)[\-_]?1252$/i` | `Windows-1252` `cp1252`    |
+<table>
+  <tr>
+    <th>Name</th>
+    <th>RegExp</th>
+    <th>Examples</th>
+  </tr>
+  <tr>
+    <td><tt>utf8</tt></td>
+    <td><tt>/^utf[\-_]?8$/i</tt></td>
+    <td><tt>utf8 UTF-8</tt></td>
+  </tr>
+  <tr>
+    <td><tt>utf16be</tt></td>
+    <td><tt>/^utf[\-_]?16[\-_]?be$/i</tt></td>
+    <td><tt>utf16-be UTF-16BE</tt></td>
+  </tr>
+  <tr>
+    <td><tt>utf16le</tt></td>
+    <td><tt>/^utf[\-_]?16[\-_]?le$/i</tt></td>
+    <td><tt>utf16-le UTF-16LE</tt></td>
+  </tr>
+  <tr>
+    <td><tt>usascii</tt></td>
+    <td><tt>/^(us[\-_]?)?ascii$/i</tt></td>
+    <td><tt>us-ascii ASCII</tt></td>
+  </tr>
+  <tr>
+    <td><tt>iso88591</tt></td>
+    <td><tt>/^iso[\-_]?8859[\-_]?1$/i</tt></td>
+    <td><tt>iso-8859-1 ISO8859-1</tt></td>
+  </tr>
+  <tr>
+    <td><tt>iso885915</tt></td>
+    <td><tt>/^iso[\-_]?8859[\-_]?15$/i</tt></td>
+    <td><tt>iso-8859-15 ISO8859-15</tt></td>
+  </tr>
+  <tr>
+    <td><tt>windows1252</tt></td>
+    <td><tt>/^(windows|cp)[\-_]?1252$/i</tt></td>
+    <td><tt>Windows-1252 cp1252</tt></td>
+  </tr>
+</table>
 
 Further encodings can be added as needed.  There are extensive comments in the source code to
 assist in creating new encodings.
