@@ -45,50 +45,17 @@ encoding and decoding in `node.js` systems.
 
 `Encoding` is the main class in the module (the module would have been named `encoding` but the
 name was already taken in `npm`).
-`Encoding` objects exists for the following encodings:
+`Encoding` objects currently exist for the following encodings:
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>RegExp</th>
-    <th>Examples</th>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">utf8</td>
-    <td style="font-family:monospace">/^utf[\-_]?8$/i</td>
-    <td style="font-family:monospace">utf8 UTF-8</td>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">utf16be</td>
-    <td style="font-family:monospace">/^utf[\-_]?16[\-_]?be$/i</td>
-    <td style="font-family:monospace">utf16-be UTF-16BE</td>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">utf16le</td>
-    <td style="font-family:monospace">/^utf[\-_]?16[\-_]?le$/i</td>
-    <td style="font-family:monospace">utf16-le UTF-16LE</td>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">usascii</td>
-    <td style="font-family:monospace">/^(us[\-_]?)?ascii$/i</td>
-    <td style="font-family:monospace">us-ascii ASCII</td>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">iso88591</td>
-    <td style="font-family:monospace">/^iso[\-_]?8859[\-_]?1$/i</td>
-    <td style="font-family:monospace">iso-8859-1 ISO8859-1</td>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">iso885915</td>
-    <td style="font-family:monospace">/^iso[\-_]?8859[\-_]?15$/i</td>
-    <td style="font-family:monospace">iso-8859-15 ISO8859-15</td>
-  </tr>
-  <tr>
-    <td style="font-family:monospace">windows1252</td>
-    <td style="font-family:monospace">/^(windows|cp)[\-_]?1252$/i</td>
-    <td style="font-family:monospace">Windows-1252 cp1252</td>
-  </tr>
-</table>
+| Name          | RegExp                        | Examples                   |
+|---------------|-------------------------------|----------------------------|
+| `utf8`        | `/^utf[\-_]?8$/i`             | `utf8` `UTF-8`             |
+| `utf16be`     | `/^utf[\-_]?16[\-_]?be$/i`    | `utf16-be` `UTF-16BE`      |
+| `utf16le`     | `/^utf[\-_]?16[\-_]?le$/i`    | `utf16-le` `UTF-16LE`      |
+| `usascii`     | `/^(us[\-_]?)?ascii$/i`       | `us-ascii` `ASCII`         |
+| `iso88591`    | `/^iso[\-_]?8859[\-_]?1$/i`   | `iso-8859-1` `ISO8859-1`   |
+| `iso885915`   | `/^iso[\-_]?8859[\-_]?15$/i`  | `iso-8859-15` `ISO8859-15` |
+| `windows1252` | `/^(windows|cp)[\-_]?1252$/i` | `Windows-1252` `cp1252`    |
 
 Further encodings can be added as needed.  There are extensive comments in the source code to
 assist in creating new encodings.
