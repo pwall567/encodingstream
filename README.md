@@ -54,39 +54,39 @@ name was already taken in `npm`).
     <th>Examples</th>
   </tr>
   <tr>
-    <td>`utf8`</td>
-    <td>`/^utf[\-_]?8$/i`</td>
-    <td>`utf8` `UTF-8`</td>
+    <td><tt>utf8</tt></td>
+    <td><tt>/^utf[\-_]?8$/i</tt></td>
+    <td><tt>utf8</tt> <tt>UTF-8</tt></td>
   </tr>
   <tr>
-    <td>`utf16be`</td>
-    <td>`/^utf[\-_]?16[\-_]?be$/i`</td>
-    <td>`utf16-be` `UTF-16BE`</td>
+    <td><tt>utf16be</tt></td>
+    <td><tt>/^utf[\-_]?16[\-_]?be$/i</tt></td>
+    <td><tt>utf16-be</tt> <tt>UTF-16BE</tt></td>
   </tr>
   <tr>
-    <td>`utf16le`</td>
-    <td>`/^utf[\-_]?16[\-_]?le$/i`</td>
-    <td>`utf16-le` `UTF-16LE`</td>
+    <td><tt>utf16le</tt></td>
+    <td><tt>/^utf[\-_]?16[\-_]?le$/i</tt></td>
+    <td><tt>utf16-le</tt> <tt>UTF-16LE</tt></td>
   </tr>
   <tr>
-    <td>`usascii`</td>
-    <td>`/^(us[\-_]?)?ascii$/i`</td>
-    <td>`us-ascii` `ASCII`</td>
+    <td><tt>usascii</tt></td>
+    <td><tt>/^(us[\-_]?)?ascii$/i</tt></td>
+    <td><tt>us-ascii</tt> <tt>ASCII</tt></td>
   </tr>
   <tr>
-    <td>`iso88591`</td>
-    <td>`/^iso[\-_]?8859[\-_]?1$/i`</td>
-    <td>`iso-8859-1` `ISO8859-1`</td>
+    <td><tt>iso88591</tt></td>
+    <td><tt>/^iso[\-_]?8859[\-_]?1$/i</tt></td>
+    <td><tt>iso-8859-1</tt> <tt>ISO8859-1</tt></td>
   </tr>
   <tr>
-    <td>`iso885915`</td>
-    <td>`/^iso[\-_]?8859[\-_]?15$/i`</td>
-    <td>`iso-8859-15` `ISO8859-15`</td>
+    <td><tt>iso885915</tt></td>
+    <td><tt>/^iso[\-_]?8859[\-_]?15$/i</tt></td>
+    <td><tt>iso-8859-15</tt> <tt>ISO8859-15</tt></td>
   </tr>
   <tr>
-    <td>`windows1252`</td>
-    <td>`/^(windows|cp)[\-_]?1252$/i`</td>
-    <td>`Windows-1252` `cp1252`</td>
+    <td><tt>windows1252</tt></td>
+    <td><tt>/^(windows|cp)[\-_]?1252$/i</tt></td>
+    <td><tt>Windows-1252</tt> <tt>cp1252</tt></td>
   </tr>
 </table>
 
